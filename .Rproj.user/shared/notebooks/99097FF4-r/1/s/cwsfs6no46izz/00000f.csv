@@ -1,0 +1,3 @@
+"0"," ggplot(frogs,aes(x=Frequency,y=HabType,colour=HabType))+"
+"0","  geom_point()+"
+"0","  theme_classic()"

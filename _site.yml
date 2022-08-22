@@ -1,0 +1,15 @@
+name: "Anhal-project"
+title: "Anhal's Blog"
+theme: mytheme.css
+description: |
+  My Blog
+output_dir: "docs"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+    - icon: fa fa-github
+      herf: https://github.com/Anhal-77
+output: distill::distill_article

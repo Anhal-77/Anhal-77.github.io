@@ -1,0 +1,36 @@
+[
+  {
+    "path": "posts/2022-08-22-r/",
+    "title": "R لغة ",
+    "description": {},
+    "author": [
+      {
+        "name": "أنهال",
+        "url": {}
+      }
+    ],
+    "date": "2022-08-22",
+    "categories": [],
+    "contents": "\r\n؟ R ماهي لغة\r\nهي لغة تستخدم لتحليل البيانات ومعالجتها وعرضها باستخدام الرسوم\r\nالبيانية المختلفة وهي تحتوي على العديد من الحزم\r\n؟ R لماذا نستخدم لغة\r\nلأنها لغة برمجة سهلة الإستخدام ومفتوحة المصدر ومجانية وأيضا تعمل على\r\nأنظمةالتشغيل المختلفة\r\n؟ R ماهي مجالات استخدام لغة\r\nتستخدم في عدة مجالات منها : علم البيانات الضخمة وفي الذكاء الإصطناعي\r\nوفي تحليل البيانات الجينية والوراثية وأيضا في العلوم الإجتماعية\r\nTidyverse مثال\r\nلتحليل البيانات بإستخدام حزمة\r\nتنزيل الحزمة\r\n\r\n\r\n#install.packages(\"tidyverse\")\r\n\r\n\r\nاستدعاء الحزمة\r\n\r\n\r\nlibrary(tidyverse)\r\nlibrary(tidytuesdayR)\r\n\r\n\r\nقراءة البيانات\r\n\r\n\r\n tuesdata <- tidytuesdayR::tt_load(2022, week = 31) \r\n\r\n\r\n    Downloading file 1 of 1: `frogs.csv`\r\n\r\nfrogs = tuesdata$frogs\r\n\r\n\r\nإنشاء الرسوم البيانية\r\n\r\n\r\n ggplot(frogs,aes(x=Frequency,y=HabType,colour=HabType))+\r\n  geom_point()+\r\n  theme_classic()\r\n\r\n\r\n\r\n\r\n\r\nggplot(frogs,aes(x=UTME_83,y=UTMN_83,col=HabType))+\r\n  geom_line()+\r\n  theme_classic()\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+    "preview": "posts/2022-08-22-r/r_files/figure-html5/unnamed-chunk-4-1.png",
+    "last_modified": "2022-08-22T12:53:25+03:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/welcome/",
+    "title": "Welcome to My Blog",
+    "description": "Welcome to our new blog, My Blog. We hope you enjoy \nreading what we have to say!",
+    "author": [
+      {
+        "name": "Anhal",
+        "url": "https://welcome.com/norajones"
+      }
+    ],
+    "date": "2022-08-20",
+    "categories": [],
+    "contents": "\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2022-08-20T06:48:43+03:00",
+    "input_file": {}
+  }
+]

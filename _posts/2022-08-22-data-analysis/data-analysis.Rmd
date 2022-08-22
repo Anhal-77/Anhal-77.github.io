@@ -1,0 +1,19 @@
+---
+title: "data analysis"
+description: |
+  
+author:
+  - name: أنهال
+    url: {}
+craative_commons: CC BY
+citaion_url: https://rstudio.github.io/distill
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+

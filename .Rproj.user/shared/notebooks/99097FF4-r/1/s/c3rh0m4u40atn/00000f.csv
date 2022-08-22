@@ -1,0 +1,16 @@
+"0"," tuesdata <- tidytuesdayR::tt_load(2022, week = 31) "
+"2","--- Compiling #TidyTuesday Information for 2022-08-02 ----
+"
+"2","--- There is 1 file available ---
+"
+"2","--- Starting Download ---
+"
+"1","
+"
+"1","	Downloading file 1 of 1: `frogs.csv`
+"
+"1","
+"
+"2","--- Download complete ---
+"
+"0","frogs = tuesdata$frogs"
